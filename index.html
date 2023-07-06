@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="form">                
+            <img src="assets/img/note.png" alt="notebooks">
+            <p>Notebook Gamer HP</p>
+            <input type="text" name="cantidad" id="cantidad" placeholder="Cantidad">
+            <input type="text" name="color" id="color" placeholder="Color">
+            <input type="text" name="precio" id="precio" placeholder="precio" value="400000">
+            
+            <button onclick="totalidad()">Calcular Total</button>
+            <div class="result">
+                <p>Total: $<span id="result-total"></span></p>
+                <p>Cantidad: <span id="result-cantidad"></span></p>
+                <p>Color: <span id="result-color" class="dot"></span></p>
+            </div>
+        </div>
+        <script src="assets/js/scripts.js"></script>
+</body>
+</html>
+
